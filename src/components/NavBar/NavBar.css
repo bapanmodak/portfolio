@@ -1,0 +1,17 @@
+.navbar a {
+    color: #ccc;
+    transition: color 0.3s ease;
+    padding: 6px 16px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+}
+
+.navbar a:hover {
+  color: #fff;
+
+  border-color: #2a2c39;
+}
+
+.navbar a.active {
+  color: white;
+}
