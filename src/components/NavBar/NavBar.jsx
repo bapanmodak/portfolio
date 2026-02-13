@@ -1,10 +1,10 @@
+import "./navbar.css";
 import React, { useState } from "react";
-
 import { Link, NavLink } from "react-router";
 import logo from "../../assets/logo.png";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { FaAnglesRight } from "react-icons/fa6";
-import "./navbar.css";
+
 import AnimatedButton from "../sheared/AnimatedButton";
 import { map } from "motion/react-client";
 
