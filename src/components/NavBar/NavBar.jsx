@@ -112,6 +112,7 @@ const NavBar = () => {
           </AnimatedButton>
         </Link>
       </div>
+      {/* done */}
     </div>
   );
 };
