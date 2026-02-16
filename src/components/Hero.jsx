@@ -75,7 +75,13 @@ const Hero = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <img src={myImage} alt="My Image" className="w-full lg:w-[600px]" />
+        <img
+          src={myImage}
+          alt="My Image"
+          className="w-full lg:w-[600px]"
+          fetchPriority="high"
+          loading="eager"
+        />
       </motion.div>
     </div>
   );

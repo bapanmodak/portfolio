@@ -13,10 +13,12 @@ body {
   background-color: #252734;
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
 }
 
 h1 {
   font-family: "Cormorant", serif;
+  font-display: swap;
   font-weight: bold;
 
 }
@@ -26,6 +28,5 @@ p {
 
 .custom-cursor {
   cursor: url('your-cursor-image.png'), auto;
-  /* চাইলে শুধু shadow/glow effect: */
   box-shadow: 0 0 8px rgba(0, 255, 0, 0.6);
 }
