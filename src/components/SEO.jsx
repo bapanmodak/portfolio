@@ -11,7 +11,10 @@ const SEO = ({ title, description, name, type, image }) => {
       <meta property="og:type" content={type || "website"} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={image || "/og-image.png"} />{" "}
+      <meta
+        property="og:image"
+        content={image || "/public/socialMedia.webp"}
+      />{" "}
       {/* Path to your portfolio preview image */}
       {/* Twitter tags */}
       <meta name="twitter:creator" content={name || "Bapan Modak"} />
