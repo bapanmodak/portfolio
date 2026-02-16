@@ -1,0 +1,6 @@
+# Allow all crawlers to scan the site
+User-agent: *
+Allow: /
+
+# Link to your sitemap
+Sitemap: https://bapanmodak.in/sitemap.xml

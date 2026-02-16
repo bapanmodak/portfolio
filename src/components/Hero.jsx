@@ -6,7 +6,7 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
-import myImage from "../assets/myImage.png";
+import myImage from "../assets/myImage.webp";
 import { Link } from "react-router";
 import { motion } from "framer-motion";
 import AnimatedButton from "./sheared/AnimatedButton";

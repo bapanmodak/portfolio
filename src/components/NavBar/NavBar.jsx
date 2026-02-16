@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.webp";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { FaAnglesRight } from "react-icons/fa6";
 import AnimatedButton from "../sheared/AnimatedButton";

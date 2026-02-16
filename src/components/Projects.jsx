@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaArrowRight, FaExternalLinkAlt } from "react-icons/fa";
 import AnimatedButton from "./sheared/AnimatedButton";
 import { Link } from "react-router";
-import { link } from "motion/react-client";
 
 const Projects = () => {
   const [hoveredId, setHoveredId] = useState(null);
